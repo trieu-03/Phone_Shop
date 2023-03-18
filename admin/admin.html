@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Home</title>
+
+    <!-- Font GG -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <!-- MAIN  -->
+    <link rel="stylesheet" href="./asset/css/main.css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <h1>
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    Cyber Phone</a>
+            </h1>
+            <div class="collapse navbar-collapse ml-auto" id="Allbtn">
+                <button class="btn btn-info">
+                    <a class="nav-link" href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </button>
+
+                <button class="btn btn-info">
+                    <a class="nav-link" href="../customer/view/store.html">
+                        <i class="fa-sharp fa-solid fa-store"></i>
+                        Store</a>
+                </button>
+                <button class="btn btn-info ml-auto">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        Cart</a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="carousel">
+        <div class="container mt-5">
+            <div class="card text-center">
+                <div class="card-header myCardHeader">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="text-left  font-weight-bold">Phone Management</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <button class="btn btn-info" id="btnThem" data-toggle="modal" data-target="#myModal">Add
+                                Phone</button>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+                        <table class="table table-bordered table-hover myTable">
+                            <thead class="text-primary">
+                                <tr>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th class="nowrap">
+                                        <span class="mr-1">Name</span>
+                                        <i class="fa fa-arrow-up" id="SapXepTang"></i>
+                                        <i class="fa fa-arrow-down" id="SapXepGiam"></i>
+                                    </th>
+                                    <th>Price</th>
+                                    <th>Photo</th>
+                                    <th>Discription</th>
+                                    <th>
+                                        <i class="fa-solid fa-gear"></i>
+                                        Action
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableDanhSach">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer myCardFooter">
+                        <nav>
+                            <ul class="pagination justify-content-center" id="ulPhanTrang">
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__top text-center">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="footer__bottom text-center">
+                <p>© 2021 CyberPortfolio. All rights reserved | Designed by
+                    <a href="#">CyberSoft</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

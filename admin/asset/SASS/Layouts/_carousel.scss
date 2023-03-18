@@ -1,0 +1,16 @@
+
+.carousel{
+   
+        background-color: $color-blue-1;
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        .card-header .text-left{
+            @include styleText($color-blue-1,$fs-3,$fw-2)
+        }
+        .container .card{
+            margin-top: 150px;
+
+        }
+    }
+    

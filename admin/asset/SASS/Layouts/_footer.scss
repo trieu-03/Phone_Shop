@@ -1,0 +1,23 @@
+footer{
+    background-color: $color-dark-3;
+    .footer__top{
+        padding-top: 20px;
+    }
+    .footer__top .fab{
+        padding: 10px;
+        @include styleText($color-white-2,$fs-2,$fw-1)
+       
+    }
+    
+    .footer__bottom{
+        color: $color-white-3;
+        font-size: 16px;
+        padding: 5px;
+    }
+    .footer__bottom p{
+         color: $color-white-3;
+         font-size: $fs-1;
+         font-weight: bold;
+    }
+}
+
