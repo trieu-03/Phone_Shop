@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #343a40;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+header {
+  background-color: #343a40;
+  box-shadow: 0 2px 4px #e2ebfc;
+}
+header .navbar-brand {
+  color: #2a73dd;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+/* .container {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+.nav-item-left {
+  margin-left: 0;
+}/*# sourceMappingURL=main.css.map */
+
+/*! Header  */
+
+
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand{
+    font-size: 30px;
+  }
+
+  .collapse .nav-link{
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 768px) and  (max-width: 1200px) {
+  .table td, .table th { 
+    
+  }
+
+}
