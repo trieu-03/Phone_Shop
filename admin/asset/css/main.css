@@ -22,7 +22,7 @@ header {
   z-index: 10;
 }
 header .navbar-brand {
-  margin-left: 80px;
+  margin-left: 0;
   color: #66CCCC;
   font-size: 44px;
   font-weight: 700;
@@ -38,6 +38,12 @@ header .nav-link {
 header .navbar-toggler {
   color: #66CCCC;
 }
+header .navbar {
+  margin-bottom: 0;
+}
+header .collapse.navbar-collapse {
+  flex-direction: row-reverse;
+}
 
 .carousel {
   background-color: #66CCCC;
@@ -45,13 +51,19 @@ header .navbar-toggler {
   height: 100%;
   padding: 100px;
 }
+.carousel img {
+  width: 100%;
+}
 .carousel .card-header .text-left {
   color: #66CCCC;
-  font-size: 30px;
+  font-size: 44px;
   font-weight: 400;
 }
 .carousel .container .card {
-  margin-top: 150px;
+  margin-top: 50px;
+}
+.carousel .Search-row {
+  margin-top: 100px;
 }
 
 footer {
@@ -76,3 +88,18 @@ footer .footer__bottom p {
   font-size: 16px;
   font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
+
+.carousel .card-header .text-left {
+  font-size: 35px;
+}
+
+header .btn-info {
+  margin: 0;
+}
+
+@media (min-width: 768px) and  (max-width: 1200px) {
+  .table td, .table th { 
+    padding: 0.5rem;
+  }
+
+}

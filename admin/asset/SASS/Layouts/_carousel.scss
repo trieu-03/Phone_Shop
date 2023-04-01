@@ -5,12 +5,20 @@
         width: 100%;
         height: 100%;
         padding: 100px;
+        img {
+           
+            width: 100%;
+        }
         .card-header .text-left{
-            @include styleText($color-blue-1,$fs-3,$fw-2)
+            @include styleText($color-blue-1,$fs-4,$fw-2)
         }
         .container .card{
-            margin-top: 150px;
+            margin-top: 50px;
 
         }
+        .Search-row{
+            margin-top: 100px;
+        }
+       
     }
     

@@ -8,7 +8,7 @@ header{
     transform: translateX(-50%);
     z-index: 10;
     .navbar-brand{
-        margin-left: 80px;
+        margin-left: 0;
         @include styleText($color-blue-1,$fs-4,$fw-3)
     }
     .btn-info{
@@ -19,5 +19,12 @@ header{
     }
     .navbar-toggler{
         color: $color-blue-1;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+
+    .collapse.navbar-collapse {
+        flex-direction: row-reverse;
     }
 }
