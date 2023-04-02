@@ -9,7 +9,8 @@
     color: #656774;
     font-size: 1px;
     font-weight: 700;
-    background-image: url(/img/anh-nen-toi.jpg);
+    /* background-image: url(/img/anh-nen-toi.jpg); */
+    background-color: aquamarine;
     
   }
 
